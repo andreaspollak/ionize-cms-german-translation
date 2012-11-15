@@ -99,11 +99,11 @@ $lang['button_go_to_site'] = 	'Gehe zur Webseite';
 
 /* v0.9.9 */
 $lang['write_themes'] = '<b>/themes/*</b>';
-$lang['config_check_errors'] = 'Some base requirement are not OK.<br/>Please correct them to continue the installation.';
-$lang['welcome_text'] = '<p>Welcome ! These steps will help you to install Ionize.</p>';
-$lang['write_check_text'] = '<p>The following folders and files need to be writable...</p>';
-$lang['title_folder_check'] = 'These folders needs to be writable';
-$lang['title_files_check'] = 'These files needs to be writable';
+$lang['config_check_errors'] = 'Einige Anforderungen werden nicht erfüllt.<br/>Diese müssen zuerst behoben werden, bevor mit der Installation fortgefahren werden kann.';
+$lang['welcome_text'] = '<p>Willkommen ! Die folgenden Schritte werden dich durch die Installation des ionize CMS führen.</p>';
+$lang['write_check_text'] = '<p>Die folgenden Verzeichnisse und Dateien müssen beschreibbar sein...</p>';
+$lang['title_folder_check'] = 'Diese Ordner müssen beschreibbar sein';
+$lang['title_files_check'] = 'Diese Dateien müssen beschreibbar sein';
 
 
 ?>
