@@ -97,4 +97,13 @@ $lang['finish_text'] = 			'<b>WICHTIG</b>: <br/>Sie müssen den "<b>/install</b>
 $lang['button_go_to_admin'] = 	'Gehe zur Administration';
 $lang['button_go_to_site'] = 	'Gehe zur Webseite';
 
+/* v0.99 */
+$lang['write_themes'] = '<b>/themes/*</b>';
+$lang['config_check_errors'] = 'Some base requirement are not OK.<br/>Please correct them to continue the installation.';
+$lang['welcome_text'] = '<p>Welcome ! These steps will help you to install Ionize.</p>';
+$lang['write_check_text'] = '<p>The following folders and files need to be writable...</p>';
+$lang['title_folder_check'] = 'These folders needs to be writable';
+$lang['title_files_check'] = 'These files needs to be writable';
+
+
 ?>
