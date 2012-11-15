@@ -7,7 +7,13 @@ German translation pack for the CodeIgniter (1.7) based Content Management Syste
 ##Version
 =========
 
-For ionize CMS version: 0.9.7
+There are different versions (accessable by _Tags_) which support different versions of ionize CMS.
+
+**Current master: v0.9.9**
+
+Old versions
+
+* v0.9.7
 
 
 ##Installation

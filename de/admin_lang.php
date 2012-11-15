@@ -1,6 +1,6 @@
 <?php
 
-/* v0.97 */
+/* v0.9.7 */
 $lang['ionize_home'] = 'Home';
 $lang['ionize_login'] = 'Login';
 $lang['ionize_logout'] = 'Logout';
@@ -753,7 +753,7 @@ $lang['ionize_message_check_corrected'] = ' korrekt.';
 $lang['ionize_message_check_ok'] = 'OK';
 $lang['ionize_message_check_folder_nok'] = 'Keine Schreibberechtigungen';
 
-/* v0.99 */
+/* v0.9.9 */
 $lang['ionize_administration'] = 'Administration';
 $lang['ionize_menu_categories'] = 'Categories';
 $lang['ionize_menu_types'] = 'Articles Types';

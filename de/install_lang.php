@@ -1,6 +1,6 @@
 <?php
 
-/* v0.97 */
+/* v0.9.7 */
 $lang['title_ionize_installation'] = 		'Installation';
 $lang['title_system_check'] = 		'Systemanforderungen';
 $lang['title_database_settings'] = 	'Datenbank Einstellungen';
@@ -97,7 +97,7 @@ $lang['finish_text'] = 			'<b>WICHTIG</b>: <br/>Sie müssen den "<b>/install</b>
 $lang['button_go_to_admin'] = 	'Gehe zur Administration';
 $lang['button_go_to_site'] = 	'Gehe zur Webseite';
 
-/* v0.99 */
+/* v0.9.9 */
 $lang['write_themes'] = '<b>/themes/*</b>';
 $lang['config_check_errors'] = 'Some base requirement are not OK.<br/>Please correct them to continue the installation.';
 $lang['welcome_text'] = '<p>Welcome ! These steps will help you to install Ionize.</p>';

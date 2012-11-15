@@ -1,6 +1,6 @@
 <?php
 
-/* v0.97 */
+/* v0.9.7 */
 $lang['connect_login_failed'] = 'Ihre Logindaten konnten nicht gefunden werden. Entweder verwenden Sie einen falschen Benutzernamen oder ein falsches Passwort. Bitte versuchen Sie es erneut.';
 $lang['connect_access_denied'] = 'Sie haben keinen Zugriff auf %s';
 $lang['connect_missing_parameters']	= 'Der %s Parameter hat gefehlt';

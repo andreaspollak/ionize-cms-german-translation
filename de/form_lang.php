@@ -1,6 +1,6 @@
 <?php
 
-/* v0.99 */
+/* v0.9.9 */
 $lang['form_label_email'] = 'E-Mail';
 $lang['form_label_name'] = 'Name';
 $lang['form_label_firstname'] = 'Vorname';

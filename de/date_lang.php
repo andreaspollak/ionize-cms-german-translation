@@ -1,6 +1,6 @@
 <?php
 
-/* v0.97 */
+/* v0.9.7 */
 $lang['dateformat_short'] = 'd.m.Y';
 $lang['dateformat_medium'] = 'd M Y';
 $lang['dateformat_long'] = 'l, d F Y';

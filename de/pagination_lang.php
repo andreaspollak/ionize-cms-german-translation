@@ -1,6 +1,6 @@
 <?php
 
-/* v0.99 */
+/* v0.9.9 */
 $lang['first_link'] = 'Erste Seite';
 $lang['last_link'] = 'Letzte page';
 $lang['next_link'] = 'Nächste Seite';
