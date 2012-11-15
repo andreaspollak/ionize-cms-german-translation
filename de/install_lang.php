@@ -1,30 +1,22 @@
 <?php
 
-$lang = array();
-
-/* Allgemein */
+/* v0.97 */
 $lang['title_ionize_installation'] = 		'Installation';
-
 $lang['title_system_check'] = 		'Systemanforderungen';
 $lang['title_database_settings'] = 	'Datenbank Einstellungen';
 $lang['title_user_account'] = 	'Administrator Account';
 $lang['title_default_language'] = 	'Standardsprache';
 $lang['title_sample_data'] = 	'Die Beispieldaten installieren?';
-
 $lang['button_next_step'] = 		'Nächster Schritt';
 $lang['button_skip_next_step'] = 	'Überspringen & nächster Schritt';
 $lang['button_save_next_step'] = 	'Speichern & nächster Schritt';
 $lang['button_install_test_data'] = 	"Beispieldaten installieren";
 $lang['button_start_migrate'] = 		'Datenbankmigration starten';
-
 $lang['nav_check'] = 'Systemanforderungen';
 $lang['nav_db'] = 'Datenbank';
 $lang['nav_settings'] = 'Einstellungen';
 $lang['nav_end'] = 'Ende';
 $lang['nav_data'] = 'Beispiel';
-
-
-/* Systemanforderungen */
 $lang['php_version'] = 			'PHP >= 5';
 $lang['php_version_found'] = 	'PHP Version';
 $lang['mysql_support'] = 		'MySQL Support';
@@ -39,12 +31,8 @@ $lang['config_check_errors'] = 	'Einige Grundanforderungen werden nicht erfüllt
 $lang['welcome_text'] = 		"<p>Willkommen ! Die folgenden Schritte führen Sie durch die Ionize Installation.</p>";
 $lang['write_check_text'] = 	"<p>Folgende Ordner und Dateien müssen beschreibbar sein...</p>";
 // $lang['system_check_text'] = 	"<p>Ionize needs all of these settings to be OK.</p>";
-
 $lang['title_folder_check'] = 	"Folgende Ordner müssen beschreibbar sein";
 $lang['title_files_check'] = 	"Folgende Dateien müssen beschreibbar sein";
- 
-
-/* Datenbank */
 $lang['database_driver'] = 			'Driver';
 $lang['database_hostname'] = 		'Hostname';
 $lang['database_name'] = 			'Datenbank';
@@ -65,13 +53,8 @@ $lang['database_error_coud_not_write_database'] = 		"<b>Fehler :</b><br/> Konnte
 $lang['database_error_coud_not_create_database'] = "Der Installer kann die Datenbank nicht erstellen. Überprüfen Sie den Datenbank Namen oder Ihre Berechtigungen";
 $lang['database_error_no_ionize_tables'] = 			"Die ausgewählte Datenbank scheint nicht von Ionize zu sein. Bitte überprüfen Sie dies.";
 $lang['database_error_no_users_to_migrate'] = 		"To user account to upgrade";
-
 $lang['database_migration_from'] = 			'Diese Datenbank benötigt ein Upgrade.<br/>Upgrade von Version : ';
-
 $lang['database_migration_text'] = 		"<p class=\"error\"><b>NOTIZ :</b><br/> Die Datenbank wird jetzt geupgraded.<b><br/>Bitte erstellen Sie ein Backup Ihrer Datenbank, bevor Sie fortfahren.</p>";
-
-
-/* Einstellungen */
 $lang['lang_code'] = 		'Code (2 Zeichen)';
 $lang['lang_name'] = 		'Label';
 $lang['settings_default_lang_title'] = 		'Standardsprache';
@@ -85,9 +68,6 @@ $lang['settings_error_admin_url'] = "Die Admin URL muss eine alphabetische Kette
 $lang['settings_admin_url_title'] = 		'Administrationspanel URL';
 $lang['settings_admin_url_text'] = 		'Es wird dringend empfohlen, nicht den Standardpfad zu verwenden.';
 $lang['admin_url'] = 'Admin URL';
-
-
-/* Benutzer */
 $lang['user_introduction'] = 	'Mit folgendem Account werden Sie sich in die Administration einloggen.';
 $lang['username'] = 			'Login (min. 4 Zeichen)';
 $lang['screen_name'] = 			'Voller Name';
@@ -104,9 +84,6 @@ $lang['encryption_key_text'] = 		"Ionize benötigt einen 128 bits Verschlüsselu
 									Dieser Schlüssel wird alle sensiblen Accountdaten verschlüsseln.
 									Er wird in die <b>/application/config/config.php</b> Datei geschrieben.";
 $lang['no_encryption_key_found'] = 	"Der Verschlüsselungskey wurde nicht gefunden. Die Accounts wurden nicht migriert. <b>Sie müssen einen neuen Administrator anlegen</b>.";
-
-
-/* Beispieldaten */
 $lang['data_install_intro'] = 	"<p>Falls Sie Ionize das erste mal nutzen, wird dringend empfohlen die Beispieldaten zu installieren.<br/>
 								Die Webseite enthält : </p>
 								<ul>
@@ -115,10 +92,9 @@ $lang['data_install_intro'] = 	"<p>Falls Sie Ionize das erste mal nutzen, wird d
 								</ul>
 								";
 $lang['title_skip_this_step'] = 	"Diesen Schritt überspringen";
-
-
-/* Finalisierung */
 $lang['title_finish'] = 		'Installation abgeschlossen';
 $lang['finish_text'] = 			'<b>WICHTIG</b>: <br/>Sie müssen den "<b>/install</b>" Ordner manuell löschen, bevor Sie die Webseite oder die Administration aufrufen.';
 $lang['button_go_to_admin'] = 	'Gehe zur Administration';
 $lang['button_go_to_site'] = 	'Gehe zur Webseite';
+
+?>
