@@ -758,24 +758,15 @@ $lang['ionize_administration'] = 'Administration';
 $lang['ionize_menu_categories'] = 'Kategorien';
 $lang['ionize_menu_types'] = 'Artikel-Typen';
 $lang['ionize_title_setup'] = 'Setup';
-<<<<<<< HEAD
 $lang['ionize_title_create_menu'] = 'Menü erstellen';
 $lang['ionize_button_create_menu'] = 'Menü erstellen';
-=======
-$lang['ionize_title_create_menu'] = 'Menu erstellen';
-$lang['ionize_button_create_menu'] = 'Menu erstellen';
->>>>>>> 125ce4923f2dd25d22b0e67ccfe0188b04422a67
 $lang['ionize_label_element_add_field'] = 'Feld hinzufügen';
 $lang['ionize_label_environment'] = 'Environment';
 $lang['ionize_label_full_url'] = 'Vollständige URL';
 $lang['ionize_label_page_single_view'] = 'Einzelartikel Ansicht';
 $lang['ionize_label_summary'] = 'Zusammenfassung';
 $lang['ionize_label_options'] = 'Optionen';
-<<<<<<< HEAD
-$lang['ionize_help_has_url'] = 'If checked, the element has one URL and is reachable through its URL.';
-=======
 $lang['ionize_help_has_url'] = 'Falls ausgewählt hat das Element eine URL und ist über diese erreichbar.';
->>>>>>> 125ce4923f2dd25d22b0e67ccfe0188b04422a67
 $lang['ionize_help_duplicate_article'] = 'You need at least to change the <b class="required">Name</b> of the article, which is the unique identifier for the article.';
 $lang['ionize_help_environment'] = 'ENVIRONMENT Konstante, gesetzt in der index.php';
 $lang['ionize_help_environment_flag'] = 'The ENVIRONMENT constant of your website is set to <b>%s</b> in the index.php.<br/>Before going live, change it to : <b>production</b>';
@@ -783,7 +774,6 @@ $lang['ionize_description_flags'] = 'Flaggen werden von Artikel-Typen verwendet 
 $lang['ionize_button_update'] = 'Update';
 $lang['ionize_button_reset_filter'] = 'Zurücksetzen';
 $lang['ionize_message_form_validation_error'] = 'Some data are missing or incorrect';
-<<<<<<< HEAD
 $lang['ionize_message_form_validation_please_correct'] = 'Bitte überprüfen Sie die Formulardaten';
 $lang['ionize_text_clean_lang_tables'] = 'Löscht alle Sprachinhalte von Sprachen, welche nicht mehr verfügbar sind.';
 $lang['ionize_title_no_source_picture'] = 'Datei nicht vorhanden';
@@ -793,17 +783,6 @@ $lang['ionize_label_db_backup'] = 'Datenbank Backup runterladen';
 $lang['ionize_label_no_source_picture'] = 'Dateiname';
 $lang['ionize_text_no_source_picture'] = 'Folgendes Bild wird verwendet, falls die eigentliche Bilddatei nicht gefunden wird.<br/>Vollständiger Dateiname inkl. Erweiterung nötig.';
 $lang['ionize_label_type'] = 'Typ';
-=======
-$lang['ionize_message_form_validation_please_correct'] = 'Please correct the form data';
-$lang['ionize_text_clean_lang_tables'] = 'Removes all lang content for languages which don\'t exists anymore';
-$lang['ionize_title_no_source_picture'] = 'Kein Quellbild';
-$lang['ionize_title_db_backup'] = 'Datenbank Backup';
-$lang['ionize_message_error_maintenance_ip_required'] = 'IP für Wartungsarbeiten erforderlich!';
-$lang['ionize_label_db_backup'] = 'Get the database backup file';
-$lang['ionize_label_no_source_picture'] = 'Dateiname';
-$lang['ionize_text_no_source_picture'] = 'The following picture will be used if one picture source file isn\'t found.<br/>Complete file name and extension.';
-$lang['ionize_label_type'] = 'Type';
->>>>>>> 125ce4923f2dd25d22b0e67ccfe0188b04422a67
 $lang['ionize_label_online_in'] = 'Online in';
 $lang['ionize_help_home_page'] = 'Is this page the home page of the website ?';
 $lang['ionize_label_page_used_by_module'] = 'Used by module';
@@ -819,20 +798,12 @@ $lang['ionize_label_media_limit_display_to_lang'] = 'Limit display to';
 $lang['ionize_label_media_display_limited_to_lang'] = 'Display limited to';
 $lang['ionize_label_media_no_limit_display'] = 'No limit';
 $lang['ionize_button_add_video'] = 'Hinzufügen';
-<<<<<<< HEAD
 $lang['ionize_label_new_lang'] = 'Sprache hinzufügen';
-=======
-$lang['ionize_label_new_lang'] = 'Sprache erstellen';
->>>>>>> 125ce4923f2dd25d22b0e67ccfe0188b04422a67
 $lang['ionize_message_article_url_exists_in_page'] = 'One article with the same URL exists in this page';
 $lang['ionize_message_article_moved'] = 'Article moved';
 $lang['ionize_help_article_meta_description'] = 'Replace the parent description';
 $lang['ionize_help_article_meta_keywords'] = 'Replace the parent keywords';
-<<<<<<< HEAD
 $lang['ionize_button_edit_mode'] = 'Bearbeitungsmodus';
-=======
-$lang['ionize_button_edit_mode'] = 'Editiermodus';
->>>>>>> 125ce4923f2dd25d22b0e67ccfe0188b04422a67
 $lang['ionize_title_tree_browser'] = 'Click on one element to select it...';
 $lang['ionize_message_internal_link_not_found'] = 'Error : Internal link not found';
 $lang['ionize_title_check_views'] = 'Check Views';
@@ -841,31 +812,18 @@ $lang['ionize_title_rebuild_pages_urls'] = 'Rebuild of Pages URLs';
 $lang['ionize_title_rebuild_articles_urls'] = 'Rebuild of Articles URLs';
 $lang['ionize_title_clean_media'] = 'Medien aufräumen';
 $lang['ionize_title_check_reports'] = 'Berichte';
-<<<<<<< HEAD
 $lang['ionize_title_broken_media_links'] = 'Fehlerhafte Medienlinks';
 $lang['ionize_title_delete_thumbs'] = 'Miniaturansichten löschen';
 $lang['ionize_text_rebuild_urls'] = 'Generiert alle Seiten und Artikel URLs neu.<br/> Alte URLs werden in der entsprechenden Tabelle gelöscht.';
 $lang['ionize_text_check_lang'] = 'Überprüft ob alle Sprachen in der Datenbank in der Konfigurationsdatei vorhanden sind.<br/> Falls nötig wird die Konfigurationsdatei korrigiert.';
 $lang['ionize_text_check_page_level'] = 'Überprüft die Seiten-Level Integrität und korrigiert diese wo nötig.';
-=======
-$lang['ionize_title_broken_media_links'] = 'Media broken links';
-$lang['ionize_title_delete_thumbs'] = 'Miniaturansichten löschen';
-$lang['ionize_text_rebuild_urls'] = 'Rebuilds the whole pages and articles URLs.<br/> Removes the old URLs in the URL table.';
-$lang['ionize_text_check_lang'] = 'Check if all languages defined in DB are set in the config file.<br/> Corrects the config file if needed.';
-$lang['ionize_text_check_page_level'] = 'Checks the page level integrity and correct if needed.';
->>>>>>> 125ce4923f2dd25d22b0e67ccfe0188b04422a67
 $lang['ionize_text_check_article_context'] = 'Checks if all articles which have only one page context have the page as "Main Parent".<br/>Corrects if needed.';
 $lang['ionize_text_clean_media'] = 'Löscht alle Medien von der Medientabelle, welche nicht benutzt werden. Achtung: Es werden keine Dateien auf dem Server gelöscht.';
 $lang['ionize_text_broken_media_links'] = 'Listet alle Medien auf, welche in der Medientabelle erscheinen (und somit als benutzt markiert sind), aber nicht auf dem Server gefunden wurden.';
 $lang['ionize_text_delete_thumbs'] = 'Löscht alle Miniaturansichten. Diese werden neu generiert, sobald ein Besucher die Seite aufruft, auf welcher sie verwendet werden.';
 $lang['ionize_title_label_write_rights'] = 'Schreibrechte';
-<<<<<<< HEAD
-$lang['ionize_message_nb_media_cleaned'] = ' media cleaned';
-$lang['ionize_message_no_broken_media_links'] = 'Keine fehlerhaften Medien gefunden';
-=======
 $lang['ionize_message_nb_media_cleaned'] = ' Medien aufgeräumt';
 $lang['ionize_message_no_broken_media_links'] = 'keine fehlerhaften Medien gefunden';
->>>>>>> 125ce4923f2dd25d22b0e67ccfe0188b04422a67
 $lang['ionize_message_thumbs_deleted'] = 'Miniaturansichten gelöscht';
 $lang['ionize_label_square_crop_area'] = 'Quadratischer Zuschneidsbereich';
 $lang['ionize_label_top_left'] = 'oben-links';
