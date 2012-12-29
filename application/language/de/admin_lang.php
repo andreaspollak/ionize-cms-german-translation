@@ -833,5 +833,6 @@ $lang['ionize_label_about_us_author'] = 'Autor';
 $lang['ionize_label_about_us_contributors'] = 'Mitwirkende';
 $lang['ionize_label_about_us_thaks_to'] = 'Vielen Dank an';
 $lang['ionize_label_about_us_license'] = 'Lizenz';
+$lang['ionize_dashboard_title_current_connected_users'] = 'Zur Zeit angemeldete Benutzer';
 
 ?>

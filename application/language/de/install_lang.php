@@ -1,5 +1,7 @@
 <?php
 
+$lang = array();
+
 /* v0.9.7 */
 $lang['title_ionize_installation'] = 		'Installation';
 $lang['title_system_check'] = 		'Systemanforderungen';
@@ -68,7 +70,7 @@ $lang['settings_error_admin_url'] = "Die Admin URL muss eine alphabetische Kette
 $lang['settings_admin_url_title'] = 		'Administrationspanel URL';
 $lang['settings_admin_url_text'] = 		'Es wird dringend empfohlen, nicht den Standardpfad zu verwenden.';
 $lang['admin_url'] = 'Admin URL';
-$lang['user_introduction'] = 	'Mit folgendem Account werden Sie sich in die Administration einloggen.';
+$lang['user_introduction'] = 	'Mit folgendem Account werden Sie sich im Administrationspanel einloggen.';
 $lang['username'] = 			'Login (min. 4 Zeichen)';
 $lang['screen_name'] = 			'Voller Name';
 $lang['email'] = 				'E-Mail';
@@ -80,7 +82,7 @@ $lang['user_error_email_not_valid'] = 			'Die E-Mail ist nicht gültig. Bitte ü
 $lang['user_error_passwords_not_equal'] = 		'Passwort und Passwort bestätigen stimmt nicht überein.	';
 $lang['user_info_admin_exists'] = 		'In der Datenbank existiert bereits ein Administrator.<br/>Sie können diesen Schritt überspringen, falls Sie keinen neuen anlegen wollen.';
 $lang['encryption_key'] = 			'Verschlüsselungskey';
-$lang['encryption_key_text'] = 		"Ionize benötigt einen 128 bits Verschlüsselungsey.<br />
+$lang['encryption_key_text'] = 		"Ionize benötigt einen 128 Bit Verschlüsselungskey.<br />
 									Dieser Schlüssel wird alle sensiblen Accountdaten verschlüsseln.
 									Er wird in die <b>/application/config/config.php</b> Datei geschrieben.";
 $lang['no_encryption_key_found'] = 	"Der Verschlüsselungskey wurde nicht gefunden. Die Accounts wurden nicht migriert. <b>Sie müssen einen neuen Administrator anlegen</b>.";
@@ -96,14 +98,6 @@ $lang['title_finish'] = 		'Installation abgeschlossen';
 $lang['finish_text'] = 			'<b>WICHTIG</b>: <br/>Sie müssen den "<b>/install</b>" Ordner manuell löschen, bevor Sie die Webseite oder die Administration aufrufen.';
 $lang['button_go_to_admin'] = 	'Gehe zur Administration';
 $lang['button_go_to_site'] = 	'Gehe zur Webseite';
-
-/* v0.9.9 */
-$lang['write_themes'] = '<b>/themes/*</b>';
-$lang['config_check_errors'] = 'Einige Anforderungen werden nicht erfüllt.<br/>Diese müssen zuerst behoben werden, bevor mit der Installation fortgefahren werden kann.';
-$lang['welcome_text'] = '<p>Willkommen ! Die folgenden Schritte werden dich durch die Installation des ionize CMS führen.</p>';
-$lang['write_check_text'] = '<p>Die folgenden Verzeichnisse und Dateien müssen beschreibbar sein...</p>';
-$lang['title_folder_check'] = 'Diese Ordner müssen beschreibbar sein';
-$lang['title_files_check'] = 'Diese Dateien müssen beschreibbar sein';
 
 
 ?>
